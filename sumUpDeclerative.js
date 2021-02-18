@@ -1,9 +1,10 @@
+// function sumUp(numbers){
+//     return numbers.reduce((prev, current) => prev + current, 0)};
+// }
+// sumUp([1,2,3]);
+
+
 function sumUp(numbers) {
-    let x = numbers[0];
-    for (let index = 1; index < numbers.length; index++) {
-        x += numbers[index];
-    }
-    return x;
+    return numbers.reduce((prev , current) => prev + current)
 }
-var arr = [1,2,3];
-console.log(sumUp(arr));
+console.log(sumUp([1,2,3]));    
